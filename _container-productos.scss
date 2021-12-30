@@ -1,0 +1,34 @@
+.container-productos{
+    padding: 10%;
+    padding-top: 10px;
+    padding-bottom: 5%;
+    text-align: left;
+
+    img{
+        margin-bottom: 30px;
+        margin-left: 15px;
+        height: 100px;
+        width: auto;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    img:hover{
+        transform: scale(1.2, 1.2);
+    }
+    .tutorial{
+        height: 315px;
+        width: auto;
+        max-width: 100%;
+    }
+}

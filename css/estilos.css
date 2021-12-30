@@ -1,12 +1,26 @@
+body {
+  overflow-x: hidden; }
+
+.menu {
+  text-align: center;
+  color: #000;
+  max-width: 100%; }
+  .menu ul {
+    list-style: none; }
+  .menu li {
+    display: inline-block;
+    padding: 15px; }
+  .menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px; }
+
 html {
   font-family: 'sans-serif';
   src: url("../Clase/fuentes/SourceSansPro-Regular.ttf");
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   src: url("../Clase/fuentes/Roboto-Regular.ttf");
   background-color: #FFF; }
-
-body {
-  overflow-x: hidden; }
 
 header {
   color: #FFF;
@@ -38,19 +52,29 @@ header {
     margin-bottom: 20px;
     font-size: 16px; }
 
-.menu {
-  text-align: center;
-  color: #000;
+.relleno {
+  justify-content: center;
+  display: flex;
+  padding: 10%;
+  padding-top: 10px;
+  padding: 10px;
   max-width: 100%; }
-  .menu ul {
-    list-style: none; }
-  .menu li {
-    display: inline-block;
-    padding: 15px; }
-  .menu a {
-    text-decoration: none;
-    color: #000;
-    font-size: 16px; }
+  .relleno .formulario {
+    padding-left: 13px;
+    padding-right: 13px;
+    max-width: 100%; }
+  .relleno .img-contact img {
+    text-align: center;
+    width: 50px;
+    height: auto; }
+
+.container-filter .filter {
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: auto;
+  height: 60px;
+  max-width: 100%; }
 
 .encuentranos {
   justify-content: center;
@@ -66,6 +90,29 @@ header {
     margin-bottom: 20px; }
   .encuentranos ul {
     list-style: none; }
+
+.container-rrss {
+  justify-content: center;
+  display: flex;
+  padding: 20%;
+  padding-top: 10px;
+  padding-bottom: 5%;
+  max-width: 100%; }
+  .container-rrss h3 {
+    text-align: center; }
+  .container-rrss a {
+    text-decoration: none; }
+  .container-rrss ul {
+    list-style: none; }
+  .container-rrss .card {
+    margin-bottom: 10px; }
+
+.container-envios {
+  display: flex;
+  padding: 30%;
+  padding-top: 10px;
+  padding-bottom: 5%;
+  text-align: center; }
 
 .container-principal {
   padding: 10%;
@@ -114,50 +161,3 @@ header {
     height: 315px;
     width: auto;
     max-width: 100%; }
-
-.container-envios {
-  display: flex;
-  padding: 30%;
-  padding-top: 10px;
-  padding-bottom: 5%;
-  text-align: center; }
-
-.container-rrss {
-  justify-content: center;
-  display: flex;
-  padding: 20%;
-  padding-top: 10px;
-  padding-bottom: 5%;
-  max-width: 100%; }
-  .container-rrss h3 {
-    text-align: center; }
-  .container-rrss a {
-    text-decoration: none; }
-  .container-rrss ul {
-    list-style: none; }
-  .container-rrss .card {
-    margin-bottom: 10px; }
-
-.relleno {
-  justify-content: center;
-  display: flex;
-  padding: 10%;
-  padding-top: 10px;
-  padding: 10px;
-  max-width: 100%; }
-  .relleno .formulario {
-    padding-left: 13px;
-    padding-right: 13px;
-    max-width: 100%; }
-  .relleno .img-contact img {
-    text-align: center;
-    width: 50px;
-    height: auto; }
-
-.container-filter .filter {
-  padding: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  width: auto;
-  height: 60px;
-  max-width: 100%; }

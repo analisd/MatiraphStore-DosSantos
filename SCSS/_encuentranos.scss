@@ -1,0 +1,18 @@
+.encuentranos{
+    justify-content: center;
+    display: flex;
+    padding: 10%;
+    padding-top: 10px;
+    padding-bottom: 5%;
+    max-width: 100%;
+
+    iframe{
+        display: inline-block;
+        width: 283px;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+    ul{
+        list-style: none;
+    }
+}

@@ -1,0 +1,21 @@
+.container-rrss{
+    justify-content: center;
+    display: flex;
+    padding: 20%;
+    padding-top: 10px;
+    padding-bottom: 5%;
+    max-width: 100%;
+
+    h3{
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+    }
+    .card{
+        margin-bottom: 10px;
+    }
+}
