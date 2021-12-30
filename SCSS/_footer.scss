@@ -1,13 +1,13 @@
 .footer-v1{
     text-align: left;
-    background-color: #004AAD;
+    background-color: $bg_oscuro;
     img{
         display: inline-block;
         max-width: 100%;
         height: 200px;		
     }
     a{
-        color: #fff;
+        color: $bg_claro;
         font-size: 14px;
     }
     ul{

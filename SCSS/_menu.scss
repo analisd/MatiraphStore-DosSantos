@@ -1,6 +1,6 @@
 .menu{
     text-align: center;
-    color: #000;
+    color: $txt_color;
     max-width: 100%;
 	
     ul{
@@ -12,7 +12,7 @@
     }
     a{
         text-decoration: none;
-        color: #000;
+        color: $txt_color;
         font-size: 16px;
     }
 
