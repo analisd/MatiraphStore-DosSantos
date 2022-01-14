@@ -1,7 +1,10 @@
-body {
-  overflow-x: hidden; }
+h2 {
+  font-size: 20px; }
 
-.menu {
+h3 {
+  font-size: 18px; }
+
+.menu, .menu ul, .menu li, .menu a {
   text-align: center;
   color: #000;
   max-width: 100%; }
@@ -14,6 +17,9 @@ body {
     text-decoration: none;
     color: #000;
     font-size: 16px; }
+
+body {
+  overflow-x: hidden; }
 
 html {
   font-family: 'sans-serif';

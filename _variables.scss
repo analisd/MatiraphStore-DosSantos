@@ -1,3 +1,97 @@
 $bg_oscuro: #004AAD;
 $bg_claro: #FFF;
 $txt_color: #000;
+
+$title:(
+    l: 20px,
+    m: 18px,
+);
+$l: map-get($title, l);
+$m: map-get($title, m);
+
+h2{
+    font-size: $l;
+}
+h3{
+    font-size: $m;
+}
+
+//* Extend *//
+
+.menu {
+    text-align: center;
+    color: #000;
+    max-width: 100%; 
+    ul{
+        @extend .menu;
+        list-style: none; 
+    }
+    li {
+        @extend .menu;
+        display: inline-block;
+        padding: 15px; }
+    a{
+        @extend .menu;
+        text-decoration: none;
+        color: #000;
+        font-size: 16px; 
+    }
+}
+  
+//* mixin *//
+    @mixin producto($bgproducto){
+        padding: 10%;
+        padding-top: 10px;
+        padding-bottom: 5%;
+        text-align: left;
+        img{
+            margin-bottom: 30px;
+            margin-left: 15px;
+            height: 100px;
+            width: auto;
+        }
+        h2{
+            font-size: $l
+        }
+        h3{
+            margin-bottom: 20px;
+            font-size: $m
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        img:hover{
+            transform: scale(1.2, 1.2);
+        }
+    }
+@mixin producto($bgproducto2){
+    padding: 10%;
+    padding-top: 10px;
+    padding-bottom: 5%;
+    text-align: left;
+    img{
+        margin-bottom: 30px;
+        margin-left: 15px;
+        height: 100px;
+        width: auto;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    img:hover{
+        transform: scale(1.2, 1.2);
+    }
+}
