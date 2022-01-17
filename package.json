@@ -1,7 +1,7 @@
 {
   "name": "matiraphstore-dossantos",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este es el sitio web de mi pagina de ventas de celulares y accesorios para iphone samsung motorola",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
