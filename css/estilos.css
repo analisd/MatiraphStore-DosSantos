@@ -106,12 +106,19 @@ header {
   max-width: 100%; }
   .container-rrss h3 {
     text-align: center; }
+  .container-rrss h5 {
+    margin-left: 20px; }
   .container-rrss a {
     text-decoration: none; }
   .container-rrss ul {
     list-style: none; }
   .container-rrss .card {
     margin-bottom: 10px; }
+  .container-rrss .iconrs svg {
+    width: 30px;
+    height: auto;
+    padding: 5px;
+    padding-left: 0px; }
 
 .container-envios {
   display: flex;
@@ -125,7 +132,7 @@ header {
   padding-top: 10px;
   padding-bottom: 5%;
   text-align: left; }
-  .container-principal img {
+  .container-principal .img-thumbnail {
     margin-bottom: 30px;
     margin-left: 30px;
     height: 150px;
@@ -139,7 +146,7 @@ header {
     list-style: none; }
   .container-principal a {
     text-decoration: none; }
-  .container-principal img:hover {
+  .container-principal .img-thumbnail:hover {
     transform: scale(1.2, 1.2); }
 
 .container-productos {
@@ -147,7 +154,7 @@ header {
   padding-top: 10px;
   padding-bottom: 5%;
   text-align: left; }
-  .container-productos img {
+  .container-productos .img-thumbnail {
     margin-bottom: 30px;
     margin-left: 30px;
     height: 150px;
@@ -161,9 +168,16 @@ header {
     list-style: none; }
   .container-productos a {
     text-decoration: none; }
-  .container-productos img:hover {
+  .container-productos .img-thumbnail:hover {
     transform: scale(1.2, 1.2); }
   .container-productos .tutorial {
     height: 315px;
     width: auto;
     max-width: 100%; }
+
+.card {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }

@@ -9,6 +9,9 @@
     h3{
         text-align: center;
     }
+    h5{
+        margin-left: 20px;
+    }
     a{
         text-decoration: none;
     }
@@ -17,5 +20,11 @@
     }
     .card{
         margin-bottom: 10px;
+    }
+    .iconrs svg{
+        width: 30px;
+        height: auto;
+        padding: 5px;
+        padding-left: 0px;
     }
 }

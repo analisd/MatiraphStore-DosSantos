@@ -4,7 +4,7 @@
     padding-bottom: 5%;
     text-align: left;
 
-    img{
+    .img-thumbnail{
         margin-bottom: 30px;
         margin-left: 30px;
         height: 150px;
@@ -23,7 +23,7 @@
     a{
         text-decoration: none;
     }
-    img:hover{
+    .img-thumbnail:hover{
         transform: scale(1.2, 1.2);
     }
     .tutorial{
